@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name= "userId" value="3"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="/Users/ankitshrivatri/Downloads/RestAssuredTestNg/src/test/java/com/demo/Tests_DataDriven.java">
+        <classes>
+            <class name="com.demo.Test01_GET">
+            <class name="com.demo.Test02_POST">
+            <class name="com.demo.Tests_localhostRun">
+            <class name="com.demo.Tests_DataDriven">
+                <methods>
+                    <include name="test_postDataDriven"/>
+                    <include name="deleteDataDrivenTest"/>
+                    <include name="delete2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,97 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "firstName": "Ankit",
+      "lastName": "Kumar",
+      "subjectId": 1,
+      "id": 1
+    },
+    {
+      "firstName": "Graham",
+      "lastName": "Bell",
+      "subjectId": 1,
+      "id": 11
+    },
+    {
+      "firstName": "Henry",
+      "lastName": "Ford",
+      "subjectId": 2,
+      "id": 12
+    },
+    {
+      "firstName": "Graham",
+      "lastName": "Bell",
+      "subjectId": 1,
+      "id": 13
+    },
+    {
+      "firstName": "Henry",
+      "lastName": "Ford",
+      "subjectId": 2,
+      "id": 14
+    },
+    {
+      "firstName": "Graham",
+      "lastName": "Bell",
+      "subjectId": 1,
+      "id": 15
+    },
+    {
+      "firstName": "Henry",
+      "lastName": "Ford",
+      "subjectId": 2,
+      "id": 16
+    },
+    {
+      "firstName": "Graham",
+      "lastName": "Bell",
+      "subjectId": 1,
+      "id": 17
+    },
+    {
+      "firstName": "Henry",
+      "lastName": "Ford",
+      "subjectId": 2,
+      "id": 18
+    },
+    {
+      "firstName": "Graham",
+      "lastName": "Bell",
+      "subjectId": 1,
+      "id": 19
+    },
+    {
+      "firstName": "Henry",
+      "lastName": "Ford",
+      "subjectId": 2,
+      "id": 20
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Automation"
+    },
+    {
+      "id": 2,
+      "name": "Manual Test"
+    }
+  ]
+}
